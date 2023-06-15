@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Is the Entry point where i can print the text with printf
  *
- * Return: Always 0 (Success)
+ * Return : Returnin 0 (Must return int)
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
