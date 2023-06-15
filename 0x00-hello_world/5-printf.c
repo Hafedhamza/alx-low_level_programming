@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Is the Entry point where i can print the text with printf
+ * main - Entry point
  *
- * Return : Returnin 0 (Must return int)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
