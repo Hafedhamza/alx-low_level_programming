@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int a, b;
+	int a;
+	int b;
 
 	for (a = 0; a <= 99; a++)
 	{
@@ -18,7 +19,7 @@ int main(void)
 			putchar(' ');
 			putchar(b / 10 + '0');
 			putchar(b % 10 + '0');
-			if (a != 98 || b != 99)
+			if (!(a == 98 && b == 99))
 			{
 				putchar(',');
 				putchar(' ');
