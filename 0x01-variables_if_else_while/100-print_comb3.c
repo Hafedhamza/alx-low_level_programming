@@ -3,17 +3,19 @@
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: always 0
+ *
  */
 int main(void)
 {
-	int a, b;
+	int a;
+	int b;
 
-	for (a = 10 ; a <= 19 ; a++)
+	for (a = 10; a <= 19; a++)
 	{
-		for (b = 10 ; b <= 19 ; j++)
+		for (b = 10; b <= 19; b++)
 		{
-			if (a % 10 < b % 10)
+			if ((a % 10) < (b % 10))
 			{
 				putchar((a % 10) + '0');
 				putchar((b % 10) + '0');
@@ -25,5 +27,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
