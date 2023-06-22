@@ -5,7 +5,6 @@
  * @n: input number
  * Return: _ if n is greater than 0, else \n
  */
-
 void print_line(int n)
 {
 	if (n <= 0)
